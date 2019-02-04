@@ -1,10 +1,8 @@
-h1 新規タスク
+h1 タスク編集
 = form_for(@task) do |f|
   = f.label :title
   br
   = f.text_field :title
   br
   = f.submit
-  br
-
 = link_to '戻る', tasks_path
